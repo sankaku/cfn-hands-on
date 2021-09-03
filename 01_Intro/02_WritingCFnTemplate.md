@@ -65,11 +65,13 @@ Description: This is a sample templete.
 ```
 
 ### Parametersセクション(任意)
+[パラメータ - AWS CloudFormation](https://docs.aws.amazon.com/ja_jp/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html)に詳細な説明があります。
+
 テンプレート内の変数のようなものです。  
 テンプレート内で何度も使う値をパラメータにすると、その値を何度も書かずに済みます。  
 また、テンプレート自体は変えずに、デプロイのときにパラメータの値だけを指定してデプロイできます。
 
-型(`Type`)やデフォルト値(`Default`)、許容される値のリスト(`AllowedValues`)、パラメータの説明(`Description`)を指定できます。
+型(`Type`)やデフォルト値(`Default`)、許容される値のリスト(`AllowedValues`)、パラメータの説明(`Description`)などを指定できます。
 
 ```yaml
 Parameters:
